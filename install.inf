@@ -1,0 +1,22 @@
+[info]
+title=TODO
+desc=CudaText plugin for bookmarking lines with TODO / NOTE / FIX ..
+type=cudatext-plugin
+subdir=cuda_todo
+homepage=https://github.com/ildarkhasanshin/cuda_todo
+
+[item1]
+section=commands
+caption=TODO\Add bookmarks to lines with TODO / NOTE / FIX ..
+method=run
+
+[item2]
+section=commands
+caption=TODO\Clear bookmarks from lines with TODO / NOTE / FIX ..
+method=clear
+
+[item100]
+section=commands
+caption=TODO\Config
+method=config
+menu=o
