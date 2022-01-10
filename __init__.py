@@ -3,7 +3,7 @@ from cudatext import *
 
 fn_config = os.path.join(app_path(APP_DIR_SETTINGS), 'cuda_todo.ini')
 
-todo_vars = 'TODO,NOTE,NOTES,FIX,FIXME,IMPORTANT,CHANGED,HACK,TEST'
+todo_vars = 'TODO,NOTE,NOTES,FIX,FIXME,IMPORTANT,CHANGED,HACK'
 
 class Command:
     def __init__(self):
